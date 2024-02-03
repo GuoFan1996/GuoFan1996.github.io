@@ -20,13 +20,6 @@ body, h1, h2, h3, p, a {
     text-align: center;
   }
   
-  /* Profile picture style */
-  .top-container img {
-    width: 150px; /* Adjust as necessary */
-    border-radius: 50%; /* Circular picture */
-    margin-top: 20px;
-  }
-  
   /* Style for the middle container */
   .middle-container {
     padding: 20px 40px;
@@ -35,16 +28,9 @@ body, h1, h2, h3, p, a {
   .profile, .education, .experience, .skills, .contact-me {
     margin-bottom: 40px;
   }
+
   
-  /* Profile section */
-  .profile img {
-    float: left;
-    margin-right: 20px;
-    width: 100px; /* Adjust as necessary */
-    border-radius: 10px; /* Rounded corners for the image */
-  }
-  
-  .profile h2, .skills h2, .contact-me h2 {
+  .profile h2,.education h2,.experience h2, .skills h2, .contact-me h2 {
     color: #4CAF50; /* Adjust the color to fit your aesthetic */
   }
   
@@ -107,30 +93,3 @@ body, h1, h2, h3, p, a {
   body {
     padding-bottom: 50px;
   }
-
-/* Skills section styles */
-.skills {
-    background-color: #f8f8f8; /* Light grey background */
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .skill-row {
-    text-align: center; /* Center-align the skills list */
-  }
-  
-  .skill-row p {
-    color: #333; /* Dark grey color for text */
-    font-size: 16px; /* Set the font size */
-    line-height: 1.5; /* Space out lines */
-    margin-top: 10px; /* Add some space above the list */
-  }
-  
-  /* Responsive design for the skills section */
-  @media (min-width: 600px) {
-    .skill-row p {
-      font-size: 18px; /* Larger font size for wider screens */
-    }
-  }
-  
